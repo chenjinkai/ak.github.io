@@ -6,7 +6,7 @@
 title: '阿凯的博客'
 subtitle: ''
 description: ''
-keywords: 'Java 互联网技术'
+keywords: '互联网技术 中间件技术 RocketMQ'
 author: '阿凯'
 language: 'zh-CN'
 timezone: 'Asia/Shanghai'
@@ -103,5 +103,5 @@ theme: landscape
 deploy:
   type: git
   repo:
-    github: https://github.com/chenjinkai/ak.github.io.git
-  branch: master  
+    github: git@107.175.36.119:/home/git/gitrepo/myblog.git
+  branch: main  
