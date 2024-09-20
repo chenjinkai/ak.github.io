@@ -108,3 +108,9 @@ deploy:
   repo:
     github: git@ranknerd.akblog.top:/home/git/gitrepo/myblog.git
   branch: main  
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+  prettyURLs:
+    trailingSlash: false
