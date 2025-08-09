@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '阿凯的博客'
+title: ''
 subtitle: ''
-description: ''
-keywords: '互联网技术 中间件技术 RocketMQ'
+description: '探索中间件技术的奥秘，构建高效、可扩展的分布式系统。本博客聚焦微服务架构下的中间件解决方案，涵盖API网关、消息队列、RPC框架、缓存策略等关键技术。通过实战案例与深入解析，助您掌握从基础到进阶的中间件知识，实现系统的高性能、高可用性及低延迟。无论您是Java、Node.js开发者，还是对云原生、DevOps感兴趣的工程师，这里都有您需要的中间件技术干货。让我们一起，在复杂的分布式环境中游刃有余，推动技术创新与发展！'
+keywords: '互联网技术 中间件技术 消息队列 微服务架构 API网关 消息中间件 服务治理 高可用性 性能优化 Java中间件 容错与故障恢复 分布式系统'
 author: '阿凯'
 language: 'zh-CN'
 timezone: 'Asia/Shanghai'
@@ -108,3 +108,12 @@ deploy:
   repo:
     github: git@107.175.36.119:/home/git/gitrepo/myblog.git
   branch: main  
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+  prettyURLs:
+
+#sitemap
+baidusitemap:
+  path: baidusitemap.xml
