@@ -104,10 +104,10 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type: 
   repo:
-    github: git@107.175.36.119:/home/git/gitrepo/myblog.git
-  branch: main  
+    github:
+  branch:   
 
 #sitemap
 sitemap:
