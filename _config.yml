@@ -117,3 +117,9 @@ sitemap:
 #sitemap
 baidusitemap:
   path: baidusitemap.xml
+
+
+archive_generator:
+  per_page: 30  # 这里可以设置你希望每页显示的文章数量
+  yearly: true  # 是否生成年度归档
+  order_by: -date # 按照日期正序排列
